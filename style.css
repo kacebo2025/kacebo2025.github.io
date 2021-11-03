@@ -8,7 +8,7 @@ body {
 	background-color: #DEF;
 }
 		    .navbar {
-				position: absolute;
+				position: fixed;
 			    width: auto;
 		        height: auto;
 			    padding-left: 15px;
