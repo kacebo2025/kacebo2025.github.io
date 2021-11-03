@@ -18,6 +18,9 @@ body {
 				background-color: #234;
 				font-size: 20px;
 			}
+            .navbar:hover {
+			     background-color: #345;
+            }
 			.navbar li {
 			    padding: 10px;
 			    display: inline-block;
@@ -37,16 +40,16 @@ body {
 			td {
 			    vertical-align: top;
 			    width: 400px;
-                            padding: 20px;
+                padding: 20px;
 			    
 			    border-radius: 10px;
 				
 			    color: #FFF;
 			    background-color: #456;
 			}
-                        td:hover {
-		            background-color: #344;
-                        }
+            td:hover {
+				background-color: #345;
+            }
 			.heading {
 			    font-family: Staatliches;
 			    font-size: 25px;
