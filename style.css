@@ -7,7 +7,7 @@
 body {
 	background-color: #DEF;
 }
-  .title {
+  .title, .title a {
 		padding: 10px; 
 		font-family: Righteous; 
 		font-size: 25px
