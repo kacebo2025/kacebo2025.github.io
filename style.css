@@ -38,12 +38,14 @@ body {
 			    border-spacing: 30px;
 			}
 			td {
+			    vertical-align: top;
+                padding: 20px;
 			    color: #FFF;
 			    background-color: #456;
 			}
-      td:hover {
+            td:hover {
 				background-color: #345;
-      }
+            }
 			.heading {
 			    font-family: Staatliches;
 			    font-size: 25px;
