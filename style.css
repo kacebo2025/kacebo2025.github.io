@@ -7,6 +7,11 @@
 body {
 	background-color: #DEF;
 }
+  .title {
+		padding: 10px; 
+		font-family: Righteous; 
+		font-size: 25px
+  }
 		    .navbar {
 				position: relative;
 			    width: auto;
@@ -30,6 +35,13 @@ body {
 			.navbar li:hover {
 			    color: #9FF;
 			}
+
+      .footer {
+				  padding: 20px;
+				  
+				  color: #FFF;
+				  background-color: #234
+      }
 			
 			table {
 			  margin-left: auto;
