@@ -36,8 +36,12 @@ body {
 				margin-right: auto;
 			}
 			td {
-			    vertical-align: top;
+				vertical-align: top;
+			    width: 400px;
                 padding: 20px;
+			
+			    border-radius: 10px;
+			}
 			    color: #FFF;
 			    background-color: #456;
 			}
