@@ -1,11 +1,12 @@
 * {
-			    margin: 0px;
-			    padding: 0px;
-			    position: relative;
-			}
-		    body {
-			background-color: #DEF;
-		    }
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+		  
+body {
+	background-color: #DEF;
+}
 		    .navbar {
 			    width: auto;
 		        height: auto;
