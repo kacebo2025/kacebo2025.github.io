@@ -35,7 +35,7 @@
 			td {
 			    vertical-align: top;
 			    width: 400px;
-                            padding: 20px;
+                padding: 20px;
 			    
 			    border-radius: 10px;
 				
@@ -47,8 +47,8 @@
 			    font-size: 25px;
 			}
 			.subheading {
-			    font-family: Patua One;
-		            font-size: 20px;
+			    font-family: Times New Roman;
+		        font-size: 20px;
 			}
 			.body {
 			    font-family: Bebas Neue;
