@@ -1,0 +1,57 @@
+.main {
+  color: #fff;
+}
+
+.cont {
+  padding: 30px;
+  background-color:#333c;
+}
+
+h1 {
+  font-family: Raleway;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h5 {
+  font-weight: normal;
+}
+
+.cont .tab {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #444e;
+}
+
+hr {
+  border: 2px solid #333;
+  background-color: #333;
+  margin-top: 0;
+  width: 100%;
+}
+
+.main ul {
+  list-style-type: none;
+  padding-left: calc(0.1*30vw);
+  line-height: 2;
+}
+
+.main .fa-file-pdf {
+  padding-right: 20px;
+  color: #ff675d;
+}
+
+.main .fa-link, .main .fa-list {
+  padding-right: 15px;
+}
+
+.main .fa-link {
+  color: #00e1ff;
+}
+
+.main .fa-list{
+  color: #ffd500;
+}

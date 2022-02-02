@@ -1,0 +1,33 @@
+.cont {
+  padding: 30px;
+  color: #fff;
+  background-color: #333d;
+}
+
+h1 {
+  font-family: 'Raleway';
+  font-size: 30px;
+}
+
+.row-odd {
+  padding: 10px 20px !important;
+  font-family: 'Segoe UI'; 
+  background-color: #444e;
+}
+.row-even {
+  padding: 10px 20px !important;
+  font-family: 'Segoe UI'; 
+  background-color: #555f;
+}
+
+.col-left {
+  display: inline-block;
+}
+.col-right {
+  display: inline-block;
+  float: right;
+  text-align: center;
+}
+
+
+

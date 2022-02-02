@@ -1,0 +1,124 @@
+* {
+	margin: 0px;
+	padding: 0px;
+  border: 0px;
+}
+a {
+  color: #fff !important;
+  text-decoration-color: #fff !important;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.img-fluid {
+  position: absolute;
+  z-index: -1;
+}
+
+body {
+  background-color: #333;
+  background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_933383882_2000133420009280345_410292.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: fixed;
+	display: inline-block;
+	padding: 20px !important; 
+	color: #fff;
+	background-color: #111d;
+	font-family: 'Baloo 2';
+	font-size: 20px;
+  z-index: 2;
+}
+.navbar i {
+	margin: 0px 10px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 70px;
+  height: 100%;
+  padding: 30px;
+  background-color: #222d;
+  width: 120px;
+  overflow-x: hidden;
+  z-index: 2;
+}
+.sidebar:hover {
+  width: 250px;
+}
+
+.sidebar .tab, .footer .tab {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #444;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.sidebar .tab i, footer .tab i {
+  display: inline;
+}
+.sidebar .tab span {
+  display: none;
+}
+.sidebar:hover .tab span {
+  display: inline;
+  color: #fff;
+}
+.sidebar .tab:hover {
+  transition: 0.2s;
+  background-color: #555;
+}
+
+.main {
+  transition: 0.2s;
+  position: absolute;
+  top: 70px;
+  left: 120px;
+  padding: 3%;
+  width: calc(100% - 120px);
+}
+.sidebar:hover + .main {
+  transition: 0.2s;
+  left: 250px;
+  width: calc(100% - 250px);
+}
+
+.footer {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .sidebar {
+    display: none;
+  }
+  .main {
+    position: relative;
+    left: 0px;
+    width: 100%;
+  }
+  .footer {
+    position: relative;
+    margin-top: 100px;
+    display: block;
+    background-color: #222d;
+    padding: 30px;
+  }
+}
+
+
+
+
+
+
+
+

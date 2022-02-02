@@ -1,0 +1,73 @@
+h1 {
+  font-family: 'Raleway';
+  font-size: 30px;
+}
+
+.announcements, .reminders {
+  display: inline-block;
+  width: 47.5%;
+  height: 300px;
+  margin: 0% 1%;
+  padding: 30px;
+  color: #fff;
+  background-color: #333d;
+}
+
+.announcements .cont, .reminders .cont {
+  height: 200px;
+  overflow-y: auto;
+}
+
+.announcements .tab, .reminders .tab { 
+  margin: 10px 0px; 
+  padding: 10px;
+  background-color: #444e;
+}
+
+.announcements h2, .reminders h2 {
+  font-size: 20px;
+}
+
+.announcements p, .reminders p {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.courses {
+  width: 97%;
+  margin: 3% 1.25%; 
+  padding: 30px;
+  color: #fff;
+  background-color: #333d;
+}
+.courses .cont {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.courses .tab {
+  vertical-align: top;
+  display: inline-block;
+  background-color: #444e;
+  margin: 0% 1%;
+  padding: 20px;
+  width: 47.5%;
+}
+.courses h3 {
+  font-size: 20px;
+  font-weight: 550;
+}
+.courses a {
+  font-size: 30px;
+}
+.courses img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .announcements, .reminders, .courses .tab {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+  
