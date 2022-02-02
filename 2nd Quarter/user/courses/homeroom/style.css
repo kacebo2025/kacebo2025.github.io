@@ -1,0 +1,21 @@
+.cont {
+  width: 100%;
+  padding: 30px;
+  color: #fff;
+  background-color: #333d;
+}
+
+h1 {
+  padding: 20px;
+  background-color: #444e;
+  font-family: Raleway;
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  padding: 20px;
+  background-color: #444e;
+  font-family: 'Segoe UI';
+  font-size: 15px;
+}

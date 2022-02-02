@@ -1,0 +1,117 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  background-color: #0e1013;
+  overflow: auto;
+}
+
+.content {
+  width: 80%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #19212a;
+}
+
+nav {
+  padding: 20px;
+  background-color: #19212a;
+}
+nav img {
+  height: 40%;
+}
+
+.main {
+  padding: 50px;
+  height: 100%;
+  background-image: url("bg-img1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main h1 {
+  display: block;
+  padding: 20px;
+  font-size: 55px;
+  font-family: 'Yellowtail';
+  color: #f0f0ea;
+  text-shadow: 3px 3px #373f49;
+  margin-top: 0px;
+}
+.main .login-box {
+  margin-top: 15%; 
+  float: right;
+  padding: 30px;
+  width: 30%;
+  background-color: #373f49;
+  color: #f0f0ea;
+  font-family: 'Baloo 2'; 
+  box-shadow: 10px 10px #19212a;
+}
+
+label {
+  color: #f0f0ea;
+  font-size: 20px;
+}
+
+input {
+  width: 90%;
+  font-size: 20px;
+}
+
+a {
+  color: #d7cac4;
+}
+
+.login-button {
+  padding: 8px;
+  background-color: #f0f0ea;
+  color: #0e1013;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.login-button:hover {
+  background-color: #d7cac4;
+  color: #0e1013;
+}
+
+@media (max-width: 576px){
+  .content {
+    width: auto;
+  }
+  .main {
+    width: calc(100% - 30px); 
+    height: 100vh;
+    padding: 15px;
+    padding-bottom: 20%;
+    background-size: 200%;
+    overflow: hidden;
+  }
+  .main .login-box{
+    padding: 5%;
+    width: 90%;
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+  nav img {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 960px) {
+  .content {
+    width: auto;
+  }
+  .main {
+    max-height: 100vh;
+    padding-bottom: 30% !important;
+  }
+  .main .login-box{
+    margin-top: 10%;
+  }
+} 
