@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hangman</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bbc137e75a.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="game">
+    <div class="container">
+      <header>
+        <div class="float-right">Mistakes: <span id="mistakes">0</span> of 6</div><br>
+        <h2>HANGMAN</h2>
+      </header>
+      <div>
+        <img id='hangmanPic' src="images/0.jpg" alt="hangmanState0">
+        <div id="text"></div>
+      </div>
+      <br>
+      <div id="keyboard">
+        <div class="btn-group">
+          <button type="button" class="btn key" onclick="input('Q'); disappear(this);">Q</button>
+          <button type="button" class="btn key" onclick="input('W'); disappear(this);">W</button>
+          <button type="button" class="btn key" onclick="input('E'); disappear(this);">E</button>
+          <button type="button" class="btn key" onclick="input('R'); disappear(this);">R</button>
+          <button type="button" class="btn key" onclick="input('T'); disappear(this);">T</button>
+          <button type="button" class="btn key" onclick="input('Y'); disappear(this);">Y</button>
+          <button type="button" class="btn key" onclick="input('U'); disappear(this);">U</button>
+          <button type="button" class="btn key" onclick="input('I'); disappear(this);">I</button>
+          <button type="button" class="btn key" onclick="input('O'); disappear(this);">O</button>
+          <button type="button" class="btn key" onclick="input('P'); disappear(this);">P</button>
+        </div>
+        <br>
+        <div class="btn-group">
+          <button type="button" class="btn key" onclick="input('A'); disappear(this);">A</button>
+          <button type="button" class="btn key" onclick="input('S'); disappear(this);">S</button>
+          <button type="button" class="btn key" onclick="input('D'); disappear(this);">D</button>
+          <button type="button" class="btn key" onclick="input('F'); disappear(this);">F</button>
+          <button type="button" class="btn key" onclick="input('G'); disappear(this);">G</button>
+          <button type="button" class="btn key" onclick="input('H'); disappear(this);">H</button>
+          <button type="button" class="btn key" onclick="input('J'); disappear(this);">J</button>
+          <button type="button" class="btn key" onclick="input('K'); disappear(this);">K</button>
+          <button type="button" class="btn key" onclick="input('L'); disappear(this);">L</button>
+        </div>
+        <br>
+        <div class="btn-group">
+          <button type="button" class="btn key" onclick="input('Z'); disappear(this);">Z</button>
+          <button type="button" class="btn key" onclick="input('X'); disappear(this);">X</button>
+          <button type="button" class="btn key" onclick="input('C'); disappear(this);">C</button>
+          <button type="button" class="btn key" onclick="input('V'); disappear(this);">V</button>
+          <button type="button" class="btn key" onclick="input('B'); disappear(this);">B</button>
+          <button type="button" class="btn key" onclick="input('N'); disappear(this);">N</button>
+          <button type="button" class="btn key" onclick="input('M'); disappear(this);">M</button>
+        </div>
+        <br>
+      </div> 
+      <br><br>
+      <footer>
+        <a href="#howtoplay">How to Play</a>
+        <a href="about">About</a>
+      </footer>
+      <div id="howtoplay">
+        <h3>HOW TO PLAY</h3>
+        <p>
+          Guess the word before the character is fully drawn<br><br>
+          Click on a letter on the keyboard to guess if the letter is in the word or not.
+          If it is, you got a letter right. Keep going.
+          If it isn't, you got a letter wrong and the mistake counter will go up. The more mistakes you make, the more parts of the characters is drawn.<br><br>
+          Once you make 6 mistakes, the character will be fully drawn which will constitute to a loss.
+          However, if you guess the word correctly before you hit 6 mistakes, you win.<br><br>
+          Have fun playing!
+        </p>
+        <a href="#game">Back</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
