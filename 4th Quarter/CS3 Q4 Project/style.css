@@ -1,0 +1,122 @@
+body {
+  margin: 0px; 
+  padding: 0px;
+  border: 0px; 
+  box-sizing: border-box;
+  background-image: 
+  url('https://wallpaperaccess.com/full/3771084.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  height: 100px;
+  background-color: #7E9278;
+  font-family: 'Josefin Sans';
+  top: 0;
+}
+
+.vl {
+  border-left: 20px solid #AABDA0;
+  height: 100px;
+  position: absolute;
+  left: 20px;
+}
+
+h1 { 
+  font-family: 'Josefin Sans';
+  color: white;
+  text-indent: 30px;
+  position: absolute;
+  left: 120px;
+  top: 15px;
+}
+
+h4 { 
+  font-family: 'VT323';
+  color: white;
+  text-indent: 30px;
+  position: absolute;
+  left: 120px;
+  top: 55px;
+}
+
+#logo {
+  position: absolute;
+  left: 70px;
+  top: 12px;
+}
+
+#learn-more {
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  float: right; 
+  font-size: 20px;
+  color: #fff; 
+  background-color: #00aa00;
+}
+
+@media screen and (max-width: 540px) {
+  #learn-more {
+  position: relative;
+  float: right; 
+  font-size: 14px;
+  }
+  .not-on-phone {
+    display: none;
+  }
+}
+
+.row {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.col-md-3 {
+  padding: 10px; 
+}
+
+.col-xs-6 {
+  width: 50%; 
+}
+
+.shopProd { 
+  background-color: #E3EBF2;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+}
+.shopProd img {
+  width: 100%;  
+  border: 3px solid #86A87C
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    width: 95%;
+    margin: 2.5%; 
+  }
+}
+
+#shopCart {
+  background-color: #E3EBF2;
+  border-radius: 10px;
+  font-family: 'Josefin Sans';
+  padding: 30px;
+}
+
+.cartItem {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #545454;
+}
+
+.prodName, .prodPrice {
+  font-family: 'VT323';
+}
+
+.prodPrice {
+  color: #219900;
+}
